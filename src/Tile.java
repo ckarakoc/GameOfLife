@@ -29,12 +29,11 @@ public class Tile extends StackPane {
             if (e.getButton() == MouseButton.PRIMARY && alive == true) {
                 setAlive(false);
                 rect.setFill(Color.GRAY);
-                System.out.println(alive);
 
             } else if (e.getButton() == MouseButton.PRIMARY && alive == false) {
                 setAlive(true);
                 rect.setFill(Color.BLUE);
-                System.out.println(alive);
+
             }
         });
     }
